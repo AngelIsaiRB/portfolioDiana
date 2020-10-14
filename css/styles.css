@@ -17,7 +17,14 @@ header.sticky{position:fixed;z-index:999}#menu.active{display:block}
 #mobile-menu-open{display:none;cursor:pointer;position:fixed;right:15px;top:10px;color:rgb(255, 44, 90);font-size:1.5em;z-index:20;padding:0 7px;border-radius:4px;background:#fff}
 #mobile-menu-close{display:none;text-align:right;width:100%;background:#fff;font-size:1.5em;padding-right:15px;padding-top:10px;cursor:pointer;color:rgb(255, 44, 90)}#mobile-menu-close span{font-size:0.5em;text-transform:uppercase}#mobile-menu-close i{vertical-align:middle}footer{padding:50px 0}.copyright{padding-top:20px}.copyright 
 p{margin:0;color:#74808a}.top{text-align:center}.top span{cursor:pointer;display:block;margin:15px auto 0 auto;width:35px;height:35px;border-radius:50%;border:3px solid #b9bfc4;text-align:center}.top i{color:#74808a}.social{text-align:right}.social ul{margin:5px 0 0 0;padding:0}.social li{display:inline-block;font-size:1.25em;list-style:none}.social a{display:block;color:#74808a;padding:10px}.social a:hover{color:rgb(255, 44, 90)}
-.btn-rounded-white{display:inline-block;color:#fff;padding:15px 25px;border:3px solid #fff;border-radius:30px;transition:.5s ease all}.btn-rounded-white:hover{color:rgb(255, 44, 90);background:#fff;text-decoration:none}.shadow{box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24)}.shadow-large{box-shadow:0 3px 6px rgba(0,0,0,0.08),0 3px 6px rgba(0,0,0,0.15)}.heading{position:relative;display:inline-block;font-size:2em;font-weight:300;margin:0 0 30px 0}.heading:after{position:absolute;content:'';top:100%;height:1px;width:50px;left:0;right:0;margin:0 auto;background:rgb(255, 44, 90)}.background-alt{background:#f2f2f5}
+
+.btn-rounded-pink{display:inline-block;color:rgb(255, 44, 90);padding:15px 25px;border:3px solid rgb(255, 44, 90);border-radius:30px;transition:.5s ease all}
+.btn-rounded-pink:hover{color:rgb(0, 0, 0);background:#fff;text-decoration:none}
+
+.btn-rounded-white{display:inline-block;color:#fff;padding:15px 25px;border:3px solid #fff;border-radius:30px;transition:.5s ease all}
+.btn-rounded-white:hover{color:rgb(255, 44, 90);background:#fff;text-decoration:none}
+
+.shadow{box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24)}.shadow-large{box-shadow:0 3px 6px rgba(0,0,0,0.08),0 3px 6px rgba(0,0,0,0.15)}.heading{position:relative;display:inline-block;font-size:2em;font-weight:300;margin:0 0 30px 0}.heading:after{position:absolute;content:'';top:100%;height:1px;width:50px;left:0;right:0;margin:0 auto;background:rgb(255, 44, 90)}.background-alt{background:#f2f2f5}
 #lead{position:relative;
     height:100vh;
     min-height:500px;
@@ -71,7 +78,9 @@ p{margin:0;color:#74808a}.top{text-align:center}.top span{cursor:pointer;display
     margin: 0 auto;
     max-width: 960px
 }
-
+#btn-experience {
+   justify-content: center;
+}
 
 #particles-js .particles-js-canvas-el {
     width: 100% !important;
